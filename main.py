@@ -1,6 +1,4 @@
-from disk_analyzer import DiskAnalyzer
+from visual_mech import Visualizer
 
 if __name__ == "__main__":
-    all_disks = DiskAnalyzer.get_disk_space_info()
-    for disk in all_disks:
-        print(disk)
+    Visualizer.visualize()
