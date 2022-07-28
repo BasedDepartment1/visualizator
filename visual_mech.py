@@ -6,7 +6,7 @@ class Visualizer:
     @staticmethod
     def visualize():
         labels = ["used", "free"]
-        colors = ["gray", "white"]
+        colors = ["gray", "lightblue"]
         explode = [0.3, 0]
         all_disks = DiskAnalyzer.get_disk_space_info()
         for disk in all_disks:
